@@ -1,0 +1,9 @@
+function chpwd() {
+  if $(gls &>/dev/null)
+  then
+    gls -F --color
+  else
+    ls -F --color
+  fi
+}
+
